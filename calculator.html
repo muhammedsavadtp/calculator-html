@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="display-text">
+            <input id="input-value" type="text" placeholder="0">
+        </div>
+        <button onclick="clr()" id="clear-btn">clear</button>
+        <div class="buttons-calc">
+            <button onclick="valu(7)" id="input-btn">7</button>
+            <button onclick="valu(8)" id="input-btn">8</button>
+            <button onclick="valu(9)" id="input-btn">9</button>
+            <button onclick="valu('/')" id="input-btn">/</button>
+        </div>
+        <div class="buttons-calc">
+            <button onclick="valu(4)" id="input-btn">4</button>
+            <button onclick="valu(5)" id="input-btn">5</button>
+            <button onclick="valu(6)" id="input-btn">6</button>
+            <button onclick="valu('*')" id="input-btn">x</button>
+        </div>
+        <div class="buttons-calc">
+            <button onclick="valu(1)" id="input-btn">1</button>
+            <button onclick="valu(2)" id="input-btn">2</button>
+            <button onclick="valu(3)" id="input-btn">3</button>
+            <button onclick="valu('-')" id="input-btn">-</button>
+        </div>
+        <div class="buttons-calc">
+            <button onclick="valu('.')" id="input-btn">.</button>
+            <button onclick="valu(0)" id="input-btn">0</button>
+            <button onclick="valu('+')" id="input-btn">+</button>
+            <button onclick="ans()" id="eql-btn">=</button>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
