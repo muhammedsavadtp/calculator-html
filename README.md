@@ -1,3 +1,3 @@
 # calculator-html
 
-website link :https://github.com/muhammedsavadtp/calculator-html.git
+website link :https://muhammedsavadtp.github.io/calculator-html/
